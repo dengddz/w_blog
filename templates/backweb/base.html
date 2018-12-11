@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+        {% block css %}
+        {% endblock %}
+
+        {% block images %}
+        {% endblock %}
+
+        {% block js %}
+            <script src="static/backweb/js/jquery-2.1.4.min.js"></script>
+        {% endblock %}
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
+
